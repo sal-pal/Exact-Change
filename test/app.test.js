@@ -1,6 +1,6 @@
 let chai = require("chai")
 let expect = chai.expect
-var checkCashRegister = require("../../src/app")
+var checkCashRegister = require("../src/app")
 
 describe("checkCashRegister", () => {
     it("should return an array", () => {

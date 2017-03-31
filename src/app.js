@@ -1,3 +1,16 @@
+/**
+	Output:
+		A two-dimensional array representing the amount of change due.
+		Change is represented by the amount needed of each bill type,
+		e.g. quarters, nickels, dollar bills, etc. 
+
+	Input:
+		1) price (number): The price of the item.
+		2) cash (number): The cash provided to pay for the item.
+		3) cid (array): The amount of cash in the drawer when the 
+				item is purchased. 
+**/
+
 module.exports = function (price, cash, cid) {    
        
     let Change = require("./change")
